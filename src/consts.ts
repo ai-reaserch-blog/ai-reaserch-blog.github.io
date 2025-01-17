@@ -42,7 +42,7 @@ export const FooterLinks = [
 // Social Links, src/components/Footer.astro
 export const SocialLinks = [
   {
-    href: "https://www.kaggle.com/rongshengwang",
+    href: "https://twitter.com/RongshengWang",
     icon: "tabler:brand-twitter",
     label: "Twitter",
   },
