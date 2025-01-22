@@ -9,7 +9,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://wrs-blog.github.io/",
+  site: "https://ai-reaserch-blog.github.io/",
   // base: "",
   trailingSlash: "always",
   prefetch: {
