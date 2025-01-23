@@ -2,19 +2,19 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Base Page Metadata, src/layouts/BaseLayout.astro
-export const BRAND_NAME = "Blog";
-export const SITE_TITLE = "Blog";
-export const SITE_DESCRIPTION = "Blog @ RongshengWang";
+export const BRAND_NAME = "AI Reasearch Blog";
+export const SITE_TITLE = "AI Reasearch Blog";
+export const SITE_DESCRIPTION = "AI Reasearch Blog @ RongshengWang";
 
 // Tags Page Metadata, src/pages/tags/index.astro
-export const Tags_TITLE = "Blog - All Tags";
+export const Tags_TITLE = "AI Reasearch Blog - All Tags";
 export const Tags_DESCRIPTION =
-  "Blog - All tags and the count of articles related to each tag";
+  "AI Reasearch Blog - All tags and the count of articles related to each tag";
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
   return {
-    title: `All articles on '${tag}' tag in Blog`,
+    title: `All articles on '${tag}' tag in AI Reasearch Blog`,
     description: `Explore articles about ${tag} for different perspectives and in-depth analysis.`,
   };
 }
@@ -22,8 +22,8 @@ export function getTagMetadata(tag: string) {
 // Category Page Metadata, src/pages/category/[category]/[page].astro
 export function getCategoryMetadata(category: string) {
   return {
-    title: `All articles in '${category}' category in Blog`,
-    description: `Browse all articles under the ${category} category in Blog`,
+    title: `All articles in '${category}' category in AI Reasearch Blog`,
+    description: `Browse all articles under the ${category} category in AI Reasearch Blog`,
   };
 }
 
@@ -36,7 +36,7 @@ export const HeaderLinks = [
 
 // Footer Links, src/components/Footer.astro
 export const FooterLinks = [
-  { href: "https://www.wangrs.site/", title: "Copyright @ RongshengWang" },
+  { href: "https://www.wangrs.site/", title: "Copyright @ AI Reasearch Blog" },
 ];
 
 // Social Links, src/components/Footer.astro
