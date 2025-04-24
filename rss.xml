@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>AI Reasearch Blog</title><description>AI Reasearch Blog @ RongshengWang</description><link>https://ai-reaserch-blog.github.io/</link><language>en-US</language><item><title>Sky-T1: Train your own O1 preview model within $450</title><link>https://ai-reaserch-blog.github.io/posts/sky-t1/</link><guid isPermaLink="true">https://ai-reaserch-blog.github.io/posts/sky-t1/</guid><description>We introduce Sky-T1-32B-Preview, our reasoning model that performs on par with o1-preview on popular reasoning and coding benchmarks.</description><pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate><content:encoded>We introduce Sky-T1-32B-Preview, our reasoning model that performs on par with o1-preview on popular reasoning and coding benchmarks. **Remarkably, Sky-T1-32B-Preview was trained for less than $450, demonstrating that it is possible to replicate high-level reasoning capabilities affordably and efficiently.** All [code](https://github.com/NovaSky-AI/SkyThought) is open-source. 
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>AI Reasearch Blog</title><description>AI Reasearch Blog @ RongshengWang</description><link>https://ai-reaserch-blog.github.io/</link><language>en-US</language><item><title>GitHub Commits 标准提交规范</title><link>https://ai-reaserch-blog.github.io/posts/GitHub%20Commits%20%E6%A0%87%E5%87%86%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</link><guid isPermaLink="true">https://ai-reaserch-blog.github.io/posts/GitHub%20Commits%20%E6%A0%87%E5%87%86%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</guid><description>Conventional Commits 规范是一种轻量化的 Github Commits 提交消息约定，通过结构化格式确保提交历史清晰明确，便于自动化工具处理。</description><pubDate>Thu, 24 Apr 2025 00:00:00 GMT</pubDate><content:encoded>Conventional Commits 是一种规范化的 Git 提交信息格式。遵循规范可以有效提升 Commit Message 的可读性，也方便历史记录和版本控制。
+
+最基础的格式如下：
+
+```swift
+1. &lt;type&gt;[optional scope]: &lt;description&gt;
+2.
+3. [optional body]
+4.
+5. [optional footer(s)]
+```
+
+其中 `&lt;type&gt;` 表示提交类型（必填），也决定它在 changelog 中的分类，通常有以下几种：
+
+- `feat`: 新功能；
+- `fix`: 修复 bug；
+- `docs`: 仅修改文档；
+- `style`: 不影响代码逻辑的修改，比如格式、空格、缩进、缺失的分号；
+- `refactor`: 代码重构（不包含功能变更或 bug 修复）；
+- `perf`: 性能优化；
+- `test`: 添加测试或修改测试；
+- `build`: 构建系统或依赖的变动（例如 webpack、rollup）；
+- `chore`: 杂项、不属于其他类型的更改（比如改 .gitignore、更新依赖）；
+- `ci`: 持续集成相关（GitHub Actions、Travis CI、Circle 等）；
+- `revert`: 回滚某个提交（会自动生成 footer）。
+
+而 `[optional scope]` 表示影响范围（可选），`[description]` 表示简短的描述（必填），例如：
+
+```shell
+1. feat(blog): add comment system
+2. fix(pdf): correct link to external document
+3. docs(readme): update usage instructions
+```
+
+`[optional body]` 在解释提交的动机、问题背景、修改细节，尤其是重大提交或 refactor 时有用。`[optional footer(s)]` 则用于关闭 issue、BREAKING CHANGE 等信息。
+
+本文更多参考：[Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)</content:encoded></item><item><title>Sky-T1: Train your own O1 preview model within $450</title><link>https://ai-reaserch-blog.github.io/posts/sky-t1/</link><guid isPermaLink="true">https://ai-reaserch-blog.github.io/posts/sky-t1/</guid><description>We introduce Sky-T1-32B-Preview, our reasoning model that performs on par with o1-preview on popular reasoning and coding benchmarks.</description><pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate><content:encoded>We introduce Sky-T1-32B-Preview, our reasoning model that performs on par with o1-preview on popular reasoning and coding benchmarks. **Remarkably, Sky-T1-32B-Preview was trained for less than $450, demonstrating that it is possible to replicate high-level reasoning capabilities affordably and efficiently.** All [code](https://github.com/NovaSky-AI/SkyThought) is open-source. 
 
 ![img](https://raw.githubusercontent.com/NovaSky-AI/novasky-ai.github.io/main/assets/images/sky-t1/Sky-T1-pipeline.jpg)
 
