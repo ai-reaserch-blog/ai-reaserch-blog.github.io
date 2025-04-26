@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>AI Reasearch Blog</title><description>AI Reasearch Blog @ RongshengWang</description><link>https://ai-reaserch-blog.github.io/</link><language>en-US</language><item><title>AI 的下半场</title><link>https://ai-reaserch-blog.github.io/posts/AI%20%E7%9A%84%E4%B8%8B%E5%8D%8A%E5%9C%BA/</link><guid isPermaLink="true">https://ai-reaserch-blog.github.io/posts/AI%20%E7%9A%84%E4%B8%8B%E5%8D%8A%E5%9C%BA/</guid><description>我们正处于人工智能的中场休息阶段。</description><pubDate>Fri, 25 Apr 2025 00:00:00 GMT</pubDate><content:encoded>&gt; 本文翻译自[《The Second Half - Shunyu Yao》](https://ysymyth.github.io/The-Second-Half/)
 
-### 下半场
-
 **要点总结**：我们正处于人工智能的中场休息阶段。
 
 几十年来，人工智能主要致力于开发新的训练方法和模型。而且这取得了成效：从在国际象棋和围棋比赛中击败世界冠军，在学术能力评估测试（SAT）和律师资格考试中超越大多数人类，到获得国际数学奥林匹克竞赛（IMO）和国际信息学奥林匹克竞赛（IOI）金牌。在这些历史里程碑——深蓝（DeepBlue）、阿尔法围棋（AlphaGo）、GPT-4以及o系列模型背后，是人工智能方法的根本性创新：搜索、深度强化学习、规模扩展以及推理。随着时间推移，情况越来越好。
